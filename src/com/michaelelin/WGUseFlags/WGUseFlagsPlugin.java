@@ -35,8 +35,6 @@ public class WGUseFlagsPlugin extends JavaPlugin {
     public StateFlag USE_HOPPER;
     public StateFlag USE_DROPPER;
 
-    public StateFlag DISPENSER = new StateFlag("use-dispenser", true);
-
     @Override
     public void onEnable() {
         wgCustomFlagsPlugin = getPlugin("WGCustomFlags", WGCustomFlagsPlugin.class);
